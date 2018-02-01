@@ -1,3 +1,1 @@
-# README
-
-## Subtitle
+# Jekyll Blog for Soapbox Music
