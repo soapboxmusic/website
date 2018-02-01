@@ -1,81 +1,94 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
-        <meta name="description" content="{{site.description}}"/>
-        <meta name="author" content="{{site.author}}"/>
-        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
+  <head>
+      <meta charset="utf-8"/>
+      <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+      <meta name="description" content="{{site.description}}"/>
+      <meta name="author" content="{{site.author}}"/>
+      <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
 
-        <!-- Base -->
-         <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css" />
-         <link href="{{site.baseurl}}/assets/css/base/normalize.css" rel="stylesheet" type="text/css" />
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-         <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>      
-         <link href="{{site.baseurl}}/assets/css/base/typography.css" rel="stylesheet" type="text/css" />
-         <link href="{{site.baseurl}}/assets/css/base/states.css" rel="stylesheet" type="text/css" />
-         
-         <!-- Layout -->
-         <link href="assets/css/layout/grid/css/grid12.css" rel="stylesheet" type="text/css" />
-         
-         <!-- Components -->
-         <link href="{{site.baseurl}}/assets/css/components/buttons.css" rel="stylesheet" type="text/css" />
-         <link href="{{site.baseurl}}/assets/css/components/forms.css" rel="stylesheet" type="text/css" />
-         <link href="{{site.baseurl}}/assets/css/components/images.css" rel="stylesheet" type="text/css" />
-         <link href="{{site.baseurl}}/assets/css/components/lists.css" rel="stylesheet" type="text/css" />
-         <link href="{{site.baseurl}}/assets/css/components/menus.css" rel="stylesheet" type="text/css" />
-         <link href="{{site.baseurl}}/assets/css/components/tables.css" rel="stylesheet" type="text/css" />
-         <link href="{{site.baseurl}}/assets/css/components/pushtape-player.css" rel="stylesheet" type="text/css" />
-         <link href="{{site.baseurl}}/assets/css/components/code.css" rel="stylesheet" type="text/css" />
-         
-         <!-- Theme -->
-         <link href="{{site.baseurl}}/assets/css/theme/theme.css" rel="stylesheet" type="text/css" />
-         <link href="{{site.baseurl}}/assets/css/theme/breakpoints.css" rel="stylesheet" type="text/css" />
-     
-         <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+      <!-- Base -->
+       <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css" />
+       <link href="{{site.baseurl}}/assets/css/base/normalize.css" rel="stylesheet" type="text/css" />
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+       <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>      
+       <link href="{{site.baseurl}}/assets/css/base/typography.css" rel="stylesheet" type="text/css" />
+       <link href="{{site.baseurl}}/assets/css/base/states.css" rel="stylesheet" type="text/css" />
+       
+       <!-- Layout -->
+       <link href="assets/css/layout/grid/css/grid12.css" rel="stylesheet" type="text/css" />
+       
+       <!-- Components -->
+       <link href="{{site.baseurl}}/assets/css/components/buttons.css" rel="stylesheet" type="text/css" />
+       <link href="{{site.baseurl}}/assets/css/components/forms.css" rel="stylesheet" type="text/css" />
+       <link href="{{site.baseurl}}/assets/css/components/images.css" rel="stylesheet" type="text/css" />
+       <link href="{{site.baseurl}}/assets/css/components/lists.css" rel="stylesheet" type="text/css" />
+       <link href="{{site.baseurl}}/assets/css/components/menus.css" rel="stylesheet" type="text/css" />
+       <link href="{{site.baseurl}}/assets/css/components/tables.css" rel="stylesheet" type="text/css" />
+       <link href="{{site.baseurl}}/assets/css/components/pushtape-player.css" rel="stylesheet" type="text/css" />
+       <link href="{{site.baseurl}}/assets/css/components/code.css" rel="stylesheet" type="text/css" />
+       
+       <!-- Theme -->
+       <link href="{{site.baseurl}}/assets/css/theme/theme.css" rel="stylesheet" type="text/css" />
+       <link href="{{site.baseurl}}/assets/css/theme/breakpoints.css" rel="stylesheet" type="text/css" />
+   
+       <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 
-    </head>
+  </head>
 
-    <body>
-        <header>
-            <h1><a href="{{site.baseurl}}/">{{ site.name }}</a></h1>
-                <h4>{{ site.description }}</h4>
-            <hr />
-        </header>
+  <body>
 
-        <nav>
+    <header id="header">        
+      <a class="mobile-menu-toggle no-user-select visible-xs"><i class="fa fa-bars"><span class="element-invisible">Menu</span></i></a> 
 
-            <h3>First Heading</h3>
+      <hgroup id="logo-site-name">
+        <div id="logo">
+          <a href="" class="navigo" title="Home" data-navigo><img alt="Logo" src="{{site.baseurl}}/assets/images/logo.png"></a>
+        </div>
+        <h1 id="site-name"><a href="{{site.baseurl}}/">{{ site.name }}</a></h1>
+      </hgroup>
 
-            <ul>
-                <li><i class="icon-home"></i>   <a href="{{site.baseurl}}/">Home</a></li>
-                <li><i class="icon-mail"></i>   <a href="{{site.baseurl}}/contact">Contact</a></li>
-                <li><i class="icon-th"></i>     <a href="{{site.baseurl}}/archive">Archive</a></li>
-                <li><i class="icon-rss"></i>    <a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
-            </ul>
+      <ul id="main-menu" class="menu hide side-scroll">
+        <li><i class="icon-home"></i>   <a href="{{site.baseurl}}/">Home</a></li>
+        <li><i class="icon-mail"></i>   <a href="{{site.baseurl}}/contact">Contact</a></li>
+        <li><i class="icon-th"></i>     <a href="{{site.baseurl}}/archive">Archive</a></li>
+        <li><i class="icon-rss"></i>    <a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
+      </ul>                 
+    </header>
+        
+    <div id="container">
+      <div class="inner">
+        <div id="content" class="js-content container-fluid">
+          {{content}}
+        </div>
+      </div>
+    </div>
 
-            <h3>Second Heading</h3>
+    <footer>
+        <div class="pt-scrubber">
+          <div class="pt-statusbar">  
+            <div class="pt-loading"></div>  
+            <div class="pt-position"><div class="pt-handle"></div></div>  
+          </div>
+        </div>        
+        <div class="pt-controls pt-hide">          
+          <a class="pt-play-pause" href="#" title="Play/Pause">
+            <span class="play-btn"><span class="pt-play-icon"><i class="fa fa-play"></i></span></span>
+            <span class="pause-btn"><span class="pt-pause-icon"><i class="fa fa-pause"></i></span></span>
+          </a>
+          <a class="pt-permalink navigo-delegate" href=""><span class="pt-current-track-title"></span></a>    
+          <div class="pt-time">
+            <span class="pt-current-time">--:--</span> / <span class="pt-duration">--:--</span>
+          </div>           
+        </div>
+        
+        <div class="footer-text">
+          &copysr; <a href="http://www.soapboxmusic.com" target="blank">Soapbox Music, LLC</a> 
+        </div>
 
-            <ul>
-                <li><i class="icon-link"></i>   <a href="#">Link 1</a></li>
-                <li><i class="icon-link"></i>   <a href="#">Link 2</a></li>
-                <li><i class="icon-link"></i>   <a href="#">Link 3</a></li>
-            </ul>
-        </nav>
+    </footer>
 
-        <main>
-
-            {{ content }}
-
-        </main>
-
-        <footer>
-            <hr />
-            <p>&copy; <time>2018</time> {{ site.author }}</p>
-        </footer>
-
-        <script src="{{site.baseurl}}/scripts.js"></script>
-    </body>
-
+    <script src="{{site.baseurl}}/scripts.js"></script>
+  </body> 
 </html>
+
