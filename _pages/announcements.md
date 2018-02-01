@@ -5,5 +5,3 @@ description: Announcements and updates
 category: announcements
 permalink: /announcements/
 ---
-
-Lorem ipsum...
