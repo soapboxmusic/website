@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 
     <!-- If installation is in subdir and pages won't load, try altering base href to /subdir/ -->
-    <base href="/blog/"/>
+    <!-- base href="/blog/"/ -->
   
     <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
     
@@ -40,7 +40,8 @@
      <link href="{{site.baseurl}}/assets/css/theme/breakpoints.css" rel="stylesheet" type="text/css" />
  
      <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-
+     {% include head.html %}
+     {% seo %}
   </head>
 
   <body>
