@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta charset="utf-8"/>
-      <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
-      <meta name="description" content="{{site.description}}"/>
-      <meta name="author" content="{{site.author}}"/>
-      <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 
-      <!-- Base -->
-       <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css" />
-       <link href="{{site.baseurl}}/assets/css/base/normalize.css" rel="stylesheet" type="text/css" />
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-       <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>      
-       <link href="{{site.baseurl}}/assets/css/base/typography.css" rel="stylesheet" type="text/css" />
-       <link href="{{site.baseurl}}/assets/css/base/states.css" rel="stylesheet" type="text/css" />
-       
-       <!-- Layout -->
-       <link href="assets/css/layout/grid/css/grid12.css" rel="stylesheet" type="text/css" />
-       
-       <!-- Components -->
-       <link href="{{site.baseurl}}/assets/css/components/buttons.css" rel="stylesheet" type="text/css" />
-       <link href="{{site.baseurl}}/assets/css/components/forms.css" rel="stylesheet" type="text/css" />
-       <link href="{{site.baseurl}}/assets/css/components/images.css" rel="stylesheet" type="text/css" />
-       <link href="{{site.baseurl}}/assets/css/components/lists.css" rel="stylesheet" type="text/css" />
-       <link href="{{site.baseurl}}/assets/css/components/menus.css" rel="stylesheet" type="text/css" />
-       <link href="{{site.baseurl}}/assets/css/components/tables.css" rel="stylesheet" type="text/css" />
-       <link href="{{site.baseurl}}/assets/css/components/pushtape-player.css" rel="stylesheet" type="text/css" />
-       <link href="{{site.baseurl}}/assets/css/components/code.css" rel="stylesheet" type="text/css" />
-       
-       <!-- Theme -->
-       <link href="{{site.baseurl}}/assets/css/theme/theme.css" rel="stylesheet" type="text/css" />
-       <link href="{{site.baseurl}}/assets/css/theme/breakpoints.css" rel="stylesheet" type="text/css" />
-   
-       <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <!-- If installation is in subdir and pages won't load, try altering base href to /subdir/ -->
+    <base href="/"/>
+  
+    <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+    
+    <meta name="description" content="{{site.description}}"/>
+    <meta name="author" content="{{site.author}}"/>
+    
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
+
+    <!-- Base -->
+     <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css" />
+     <link href="{{site.baseurl}}/assets/css/base/normalize.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>      
+     <link href="{{site.baseurl}}/assets/css/base/typography.css" rel="stylesheet" type="text/css" />
+     <link href="{{site.baseurl}}/assets/css/base/states.css" rel="stylesheet" type="text/css" />
+     
+     <!-- Layout -->
+     <link href="assets/css/layout/grid/css/grid12.css" rel="stylesheet" type="text/css" />
+     
+     <!-- Components -->
+     <link href="{{site.baseurl}}/assets/css/components/buttons.css" rel="stylesheet" type="text/css" />
+     <link href="{{site.baseurl}}/assets/css/components/forms.css" rel="stylesheet" type="text/css" />
+     <link href="{{site.baseurl}}/assets/css/components/images.css" rel="stylesheet" type="text/css" />
+     <link href="{{site.baseurl}}/assets/css/components/lists.css" rel="stylesheet" type="text/css" />
+     <link href="{{site.baseurl}}/assets/css/components/menus.css" rel="stylesheet" type="text/css" />
+     <link href="{{site.baseurl}}/assets/css/components/tables.css" rel="stylesheet" type="text/css" />
+     <link href="{{site.baseurl}}/assets/css/components/pushtape-player.css" rel="stylesheet" type="text/css" />
+     <link href="{{site.baseurl}}/assets/css/components/code.css" rel="stylesheet" type="text/css" />
+     
+     <!-- Theme -->
+     <link href="{{site.baseurl}}/assets/css/theme/theme.css" rel="stylesheet" type="text/css" />
+     <link href="{{site.baseurl}}/assets/css/theme/breakpoints.css" rel="stylesheet" type="text/css" />
+ 
+     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 
   </head>
 
@@ -87,10 +94,10 @@
 
     </footer>
     
-    <script type="text/javascript" src="../assets/js/soundmanager2-jsmin.js"></script>    
-    <script type="text/javascript" src="../assets/js/pushtape-player.js"></script>
-    <script type="text/javascript" src="../assets/js/pushtape-player.init.js"></script>
-    <script  type="text/javascript" src="../assets/js/scripts.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/soundmanager2-jsmin.js"></script>    
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/pushtape-player.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/pushtape-player.init.js"></script>
+    <script  type="text/javascript" src="{{site.baseurl}}/assets/js/scripts.js"></script>
   </body> 
 </html>
 
