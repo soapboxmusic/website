@@ -15,7 +15,7 @@ author_email: soapboxchicago@gmail.com
 # category_dir: /
 
 # Plugins
-plugins
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
