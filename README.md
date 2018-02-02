@@ -1,1 +1,2 @@
-# Jekyll Blog for Soapbox Music
+# Jekyll Site for Soapbox Music
+
