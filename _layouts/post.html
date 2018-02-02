@@ -2,15 +2,20 @@
 layout: default
 ---
 
-<article>
-        <header>
-            <h2>{{ page.title }}</h2>
-            <span><i class="fa fa-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
-            <span class="author"><i class="fa fa-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
-        </header>
-
-        <div class="entry">{{ content }}</div>
-
-        {% include post-categories.ext %}
+<article class="post">
+  <h2>{{ page.title }}</h2>
+  
+  <div class="entry">{{ content }}</div>
+  
+  <div class="post-footer">
+    Posted <time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time>
+    {% if page.author %}
+      by <span>{{ page.author }}</span>
+    {% endif %} 
+  </div>
+  
+  <div class="categories">
+    {% include post-categories.ext %}
+  </div>
 </article>
 

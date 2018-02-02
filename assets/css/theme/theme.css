@@ -18,7 +18,7 @@ html {
 html, #container, .inner {
   position: relative;
   min-height: 100%;  
-  background-color:#222;
+  background-color:#fefefe;
 }
 #container {
   margin:0 auto;
@@ -27,13 +27,15 @@ html, #container, .inner {
   overflow:auto;
 }
 a {
-  color:#DDD;
+  color:#069;
+}
+footer a {
+  color:#FFF;
 }
 #content {
   padding:20px;
   margin:0 auto;
-  background:rgba(0,0,0,.5);
-  color:#FFF;
+  color:#444;
   margin:0 auto;
 }
 
@@ -43,12 +45,10 @@ a {
 
 #content h1.title a {
   border:none;
-  color:#FFF;
 }
 #content .tracklist a,
 #content .pt-play-all {
   border-bottom:none;
-  color:#fff;
 }
 
 /* Uncomment for full scale background style */
@@ -65,11 +65,13 @@ html {
  * Header
  */
 header {
-  background:#16191e;
+  background:#16191e url(../../images/header-bg.png) repeat-x;
   color:#FFF;
   position:sticky;
   top:0px;
   z-index:10;
+  border-bottom:solid 5px #004ab9;
+  box-shadow: 0 0px 5px 0 #222;
 }
 header a {
   color:#cfd2da;
@@ -84,15 +86,16 @@ header a {
   padding:0 1rem;
   vertical-align:middle;
   display:inline-block;
-  line-height:56px; /* This is affected by top & bottom border widths*/
+  line-height:106px; /* This is affected by top & bottom border widths*/
 }
 #logo {
   display:inline-block;
 }
 #logo a {
+  line-height:56px;
 }
 #logo img {
-  height:56px;
+  max-height:30px;
   vertical-align:middle;
 }
 #site-name a {
@@ -196,3 +199,51 @@ ul.release-list .artwork {
   font-style:italic;
 }
 
+.archive-wrap .group-year h2 {
+  clear:both;
+  height:auto;
+}
+.archive-wrap article a {
+  display:block;
+  border:solid #ddd 1px;
+  border-radius:2px;
+  height:200px;
+  width:200px;
+  float:left;
+  margin:0rem 1rem 1rem 0;
+  background:#eee;
+  color:#444;
+}
+.archive-wrap article time {
+  display:block;
+}
+
+.post time {
+}
+.post-footer {
+  text-transform:uppercase;
+}
+
+.date {
+  float:right;
+  vertical-align:middle;
+  text-transform:uppercase;
+  font-size:1.5rem;
+}
+.blog-index article {
+  margin-bottom:3rem;
+}
+.rss {
+  display:inline-block;
+  float:right;
+}
+
+#paginator .more {
+  float:right;
+}
+
+#content .social-icons a {
+  border:none;
+  font-size:3rem;
+  padding:10px;
+}

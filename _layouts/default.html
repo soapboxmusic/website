@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 
     <!-- If installation is in subdir and pages won't load, try altering base href to /subdir/ -->
-    <!-- base href="/blog/"/ -->
+    <base href="/github/blog/_site/" />
   
     <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
     
@@ -15,7 +15,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
 
     <!-- Base -->
-     <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css" />
+     <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css" />
      <link href="{{site.baseurl}}/assets/css/base/normalize.css" rel="stylesheet" type="text/css" />
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
      <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>      
@@ -50,15 +50,16 @@
 
       <hgroup id="logo-site-name">
         <div id="logo">
-          <a href="" class="navigo" title="Soapbox Music" data-navigo><img alt="Logo" src="{{site.baseurl}}/assets/images/logo.png"></a>
+          <a href="{{site.baseurl}}/" class="" title="Soapbox Music"><img alt="Logo" src="{{site.baseurl}}/assets/images/logo.png"></a>
         </div>
       </hgroup>
 
       <ul id="main-menu" class="menu hide side-scroll">
-        <li><a href="{{site.baseurl}}/">Home</a></li>
-        <li><a href="{{site.baseurl}}/contact">Contact</a></li>
-        <li><a href="{{site.baseurl}}/archive">Archive</a></li>
-        <li><a href="{{site.baseurl}}/feed.xml"><i class="fa fa-rss"></i></a></li>
+        <li><a href="{{site.baseurl}}/">home</a></li>
+        <li><a href="{{site.baseurl}}/studio">co-op studio</a></li>
+        <li><a target="_blank" href="http://www.chromawheelmusic.com">chromawheel</a></li>
+        <li><a href="{{site.baseurl}}/about">about</a></li>
+        <li><a href="{{site.baseurl}}/blog">blog</a></li>                
       </ul>                 
     </header>
         
@@ -89,7 +90,7 @@
         </div>
         
         <div class="footer-text">
-          &copysr; <a href="http://www.soapboxmusic.com" target="blank">Soapbox Music, LLC</a> | 1612 N Sawyer, Chicago, IL, 60647 | 773-800-0729 | soapboxchicago@gmail.com
+          &copysr; Soapbox Music, LLC | 1612 N Sawyer, Chicago, IL, 60647 | 773-800-0729 | soapboxchicago@gmail.com | <a href="https://www.facebook.com/soapboxchicago"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com/soapboxchicago"><i class="fa fa-twitter"></i></a>  <a href="https://www.instagram.com/soapboxchicago"><i class="fa fa-instagram"></i></a>
         </div>
 
     </footer>

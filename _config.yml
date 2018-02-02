@@ -19,16 +19,17 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-redirect-from 
+  - jekyll-paginate
+#  - jekyll-redirect-from 
   
 # Uncomment if you are planning to run the blog in a subdirectory
 # Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
 # Example, you must use http://localhost:4000/path/to/blog
-#baseurl: /path/to/blog 
-# baseurl: 
+# baseurl: /path/to/blog 
+baseurl: /github/blog/_site
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://soapboxmusic.github.io/blog
+# url: http://soapboxmusic.github.io/blog
 
 #### Under the Hood Stuff #####
 
@@ -42,8 +43,9 @@ permalink: pretty
 
 # How many articles do you wish to appear on the front page:
 paginate: 10
+paginate_path: "blog/page:num/"
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.md, README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
 
-include: ["_pages"]
+# include: ['_pages']
