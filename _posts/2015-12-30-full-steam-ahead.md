@@ -5,7 +5,7 @@ author: farsheed
 category: null
 published: true
 redirect_from:
-  - /blog/full-steam-ahead/
+  - /blog/full-steam-ahead
 ---
 
 
