@@ -3,7 +3,8 @@ layout: post
 title: "2012 Summer Songwriters Wrap-up"
 excerpt: ""
 author: brendan
-category: 
+redirect_from:
+  - /blog/2012-summer-songwriters-wrap
 ---
 
 At the end of June, Soapbox Music partnered with [Rock The Cello](http://rockthecello.wordpress.com/) to host a first-ever week-long summer songwriting workshop for middle school students at the Chicago Waldorf School and Soapbox Music in Logan Square.   

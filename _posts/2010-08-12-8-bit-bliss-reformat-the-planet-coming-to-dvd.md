@@ -3,6 +3,8 @@ layout: post
 title: "8-Bit Bliss: Reformat the Planet coming to DVD"
 excerpt: "8-Bit Bliss: Reformat the Planet coming to DVD"
 author: farsheed
+redirect_from:
+  - /content/8-bit-bliss-reformat-planet-coming-dvd
 ---
 
 [Nullsleep](http://www.nullsleep.com/) played Soapbox a while back (audio coming soon), and if you liked that performance check this out!

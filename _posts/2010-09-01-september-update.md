@@ -3,6 +3,8 @@ layout: post
 title: "September Update: String Session, Sound Installation by Eric Laska , 50% off all rehearsals"
 excerpt:  ""
 author: farsheed
+redirect_from:
+  - /content/september-update-string-session-sound-installation-eric-laska-50-all-rehearsals
 ---
 
 Hey ya'll,

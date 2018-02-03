@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Co-op Studio Membership
+redirect_from:
+  - /about/membership
 ---
 
 

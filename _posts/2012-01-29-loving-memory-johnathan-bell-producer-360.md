@@ -3,7 +3,9 @@ layout: post
 title: "In Loving Memory of Johnathan Bell (Producer 360) "
 excerpt: ""
 author: brendan
-category: 
+redirect_from:
+  - /blog/loving-memory-johnathan-bell-producer-360
+
 ---
 
 ![](files/bell.png)

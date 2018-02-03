@@ -4,6 +4,8 @@ title: "48 Volts: Magicks"
 excerpt:  ""
 author: farsheed
 category: 48volts
+redirect_from:
+  - /content/48-volts-magicks
 ---
 
 _Recorded 9/12/2010_

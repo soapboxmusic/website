@@ -4,6 +4,8 @@ title: "48 Volts: Raj Mahal"
 excerpt:  ""
 author: farsheed
 category: 48volts
+redirect_from:
+  - /content/48volts-interview-raj-mahal
 ---
 
 Originally from Detroit, Raj "Mahal" Malosh is a producer now bringing that Motor City soul to Chicago in the form of futuristic & experimental beat production.

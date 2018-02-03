@@ -3,6 +3,8 @@ layout: post
 title: "open hours rocked and featured:"
 excerpt: open hours rocked and featured...
 author: brendan
+redirect_from:
+  - /content/open-hours-rocked-and-featured
 ---
 
 Block-rockin beatz by Charlie D  

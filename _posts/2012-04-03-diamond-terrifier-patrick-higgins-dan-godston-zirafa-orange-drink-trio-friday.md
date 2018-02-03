@@ -3,7 +3,8 @@ layout: post
 title: "Diamond Terrifier, Patrick Higgins, {Dan Godston/Zirafa/Orange Drink} trio this Friday"
 excerpt: ""
 author: farsheed
-category: 
+redirect_from:
+  - /blog/diamond-terrifier-patrick-higgins-dan-godstonzirafaorange-drink-trio-friday
 ---
 
 ![](files/sbxflyer.jpg)

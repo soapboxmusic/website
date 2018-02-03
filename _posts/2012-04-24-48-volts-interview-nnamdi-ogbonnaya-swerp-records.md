@@ -4,6 +4,8 @@ title: "48 Volts: Interview with Nnamdi Ogbonnaya of Swerp Records"
 excerpt: ""
 author: farsheed
 category: 48volts
+redirect_from:
+  - /blog/48-volts-interview-nnamdi-ogbonnaya-swerp-records
 ---
 
 ![](files/Nnamdi_pic.jpg)

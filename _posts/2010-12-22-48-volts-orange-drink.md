@@ -4,6 +4,8 @@ title: "48 Volts: Orange Drink"
 excerpt:  ""
 author: farsheed
 category: 48volts
+redirect_from:
+  - /content/48-volts-interview-drew-fernando-orange-drink
 ---
 
 Orange Drink is a band of many faces and configurations. It's self-described by member Drew Fernando as a collective; members come and go leaving imprints like memories, chugging forward like a train at full steam with no intention of stopping. Depending on when you hear them they might sound like a folk rock band, the next minute a noise group, and then at the end of the night they'll be bumping electronic dance music. Their vaudeville style performances are equally eclectic and can feature electronic manipulation, breakdancing, puppets, performance art, comedy routines, horror soundscapes, as well as a standard rock setup.

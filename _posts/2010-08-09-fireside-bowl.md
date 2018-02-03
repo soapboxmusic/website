@@ -3,6 +3,8 @@ layout: post
 title: "fireside bowl"
 excerpt: "fireside bowl is back and doing shows"
 author: farsheed
+redirect_from:
+  - /content/fireside-bowl-back-doing-shows
 ---
 
 Fireside Bowl, an all-ages punk venue in Chicago that was popular and influential in the '90s, started booking shows again this past June.

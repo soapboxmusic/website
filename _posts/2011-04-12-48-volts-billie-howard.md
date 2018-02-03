@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "48 Volts: Interview with Billie Howard "
+title: "48 Volts: Interview with Billie Howard"
 excerpt: ""
 author: brendan
 category: 48volts
+redirect_from:
+  - /blog/48-volts-interview-billie-howard
 ---
 
 ![](files/billie1.jpg)

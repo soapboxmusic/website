@@ -3,6 +3,8 @@ layout: post
 title: We have a blog!
 excerpt: It's kind of self-evident by this post, but we now have a blog...
 author: farsheed
+redirect_from:
+  - /content/we-have-blog
 ---
 
 It's kind of self-evident by this post, but we now have a blog.  For those of you youngins out there, the word "blog" comes from the latin: "blogusito" meaning "to blog".

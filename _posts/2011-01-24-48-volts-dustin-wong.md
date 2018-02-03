@@ -4,6 +4,8 @@ title: "48 Volts: Interview with Dustin Wong"
 excerpt: ""
 author: farsheed
 category: 48volts
+redirect_from:
+  - /content/48-volts-interview-dustin-wong
 ---
 
 ![](files/dustin.jpg)  

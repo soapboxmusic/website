@@ -3,7 +3,8 @@ layout: post
 title: "Soapbox Music Speed! Results"
 excerpt: ""
 author: farsheed
-category: 
+redirect_from:
+  - /blog/soapbox-music-speed-results
 ---
 
 This past January 27 we held the first music speed challenge at Soapbox.  Participants had to compose an original piece of music from scratch, from start to finish, in less than one hour, and winners were determined by who finished first (see below for the fine print).  It was a really great time - thanks for everyone who came out!  I was also surprised at how difficult of a challenge it really was. The first half hour you think you are fine and then next thing you know there are only 3 minutes left and you are scrambling... I found out my biggest enemy was myself, and that there is a large time penalty for not being decisive enough.  If you spend your time tweaking a snare hit for 45 minutes or trying to decide on what kind of piano sound to use, you won't have enough time to actually write the song.  I think these kind of creative games really force you to produce results and overcome mental blocks - zero room to procrastinate.  I definitely think we'll be doing this again so don't miss the next one!

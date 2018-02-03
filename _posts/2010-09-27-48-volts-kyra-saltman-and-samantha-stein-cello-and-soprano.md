@@ -4,6 +4,8 @@ title: "48 Volts: Kyra Saltman and Samantha Stein, Cello and Soprano"
 excerpt:  "Check out the 48 Volts session with Samantha Stein and Kyra Saltman!"
 author: brendan
 category: 48volts
+redirect_from:
+  - /content/48-volts-kyra-saltman-and-samantha-stein-cello-and-soprano
 ---
 
 _Recorded live at Soapbox, 9/20/2010_  

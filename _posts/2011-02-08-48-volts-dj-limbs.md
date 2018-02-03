@@ -4,6 +4,8 @@ title: "48 Volts: DJ Limbs Interview"
 excerpt: ""
 author: farsheed
 category: 48volts
+redirect_from:
+  - /blog/48-volts-dj-limbs-interview
 ---
 
 ![](files/djlimbs.jpg)

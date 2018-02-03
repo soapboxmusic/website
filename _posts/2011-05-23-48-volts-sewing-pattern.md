@@ -4,6 +4,8 @@ title: "48 Volts: Interview with Sewing Pattern"
 excerpt: ""
 author: brendan
 category: 48volts
+redirect_from:
+  - /blog/48-volts-interview-sewing-pattern
 ---
 
 ![](files/sewing-pattern.jpg)
