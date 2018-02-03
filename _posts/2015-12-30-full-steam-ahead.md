@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Full steam ahead!"
-excerpt: ""
+title: Full steam ahead!
 author: farsheed
-category: 
+category: null
+published: true
+redirect_from:
+  - /blog/full-steam-ahead/
 ---
 
 
