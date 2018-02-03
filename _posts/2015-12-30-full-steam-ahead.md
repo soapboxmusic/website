@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Full steam ahead!
+excerpt: ""
 author: farsheed
 category: null
 published: true

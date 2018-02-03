@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "48 Volts: Starting a cooperative recording & rehearsal studio"
-excerpt: null
+excerpt: ""
 author: farsheed
 category: 48volts
-redirect_from
+redirect_from:
   - /blog/48-volts-starting-cooperative-recording-rehearsal-studio
 ---
 
