@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "48 Volts: Starting a cooperative recording & rehearsal studio"
-excerpt: ""
+excerpt: null
 author: farsheed
 category: 48volts
+redirect_from
+  - /blog/48-volts-starting-cooperative-recording-rehearsal-studio/
 ---
 
 In this 48 Volts, Soapbox gets interviewed! We've gotten a couple emails from people interested in trying to start cooperative music studios like ours.  Here are some of our answers to a few email questions we've received. We welcome folks asking questions and trying to learn from what we've done.
