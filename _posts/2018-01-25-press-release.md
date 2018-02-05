@@ -15,7 +15,7 @@ Long-time creative collaborators, Finucane and Hamidi-Toosi combined their profe
 
 Their goal is to manufacture an instrument that simplifies musical concepts, in order to lower the barrier to learning music for all students.
 
-Soapbox Music was founded in 2008 with a mission to provide high quality resources for musicians, by musicians. Since 2010, the company has offered local Chicago musicians and audio engineers a unique co-operative studio space to write, rehearse and record music without distractions. The 2017 expansion of the companyÕs mission into the realm of music education seemed like a logical next step.
+Soapbox Music was founded in 2008 with a mission to provide high quality resources for musicians, by musicians. Since 2010, the company has offered local Chicago musicians and audio engineers a unique co-operative studio space to write, rehearse and record music without distractions. The 2017 expansion of the company's mission into the realm of music education seemed like a logical next step.
 
 Website: [www.chromawheelmusic.com](http://www.chromawheelmusic.com)
 
