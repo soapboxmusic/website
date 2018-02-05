@@ -2,8 +2,7 @@
 layout: post
 title: "Chicago entrepreneurs debut new musical instrument that helps students learn music"
 excerpt: ""
-author: farsheed
-category: press release
+author: ""
 ---
 
 **For immediate release 1/26/18**  
