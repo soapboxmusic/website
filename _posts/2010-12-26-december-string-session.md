@@ -3,7 +3,6 @@ layout: post
 title: "december string session"
 excerpt:  "december string session"
 author: brendan
-category: null
 redirect_from:
   - /content/december-string-session
 ---
