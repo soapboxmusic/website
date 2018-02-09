@@ -6,6 +6,7 @@ author: farsheed
 category: 48volts
 redirect_from:
   - /blog/48-volts-interview-nnamdi-ogbonnaya-swerp-records
+  - /category/tags/nnamdi-ogbonnaya
 ---
 
 ![](files/Nnamdi_pic.jpg)

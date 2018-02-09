@@ -6,6 +6,7 @@ author: farsheed
 category: 48volts
 redirect_from:
   - /blog/48-volts-interview-al-scorch
+  - /category/tags/al-scorch  
 ---
 
 <iframe src="https://player.vimeo.com/video/34763013" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

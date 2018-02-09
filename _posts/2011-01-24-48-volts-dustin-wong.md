@@ -6,6 +6,7 @@ author: farsheed
 category: 48volts
 redirect_from:
   - /content/48-volts-interview-dustin-wong
+  - /category/tags/dustin-wong
 ---
 
 ![](files/dustin.jpg)  
