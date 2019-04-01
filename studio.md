@@ -6,9 +6,9 @@ redirect_from:
 ---
 
 
-![](assets/images/no-vacancy-300.jpg)
+![](assets/images/open-vacancy-300.jpg)
 
-#### No Vacancy -- 4/4 membership slots filled.
+#### 1 open membership slot -- 3/4 membership slots filled.
 Email us at soapboxchicago@gmail.com or [follow us on Facebook](http://www.facebook.com/soapboxchicago) to be notified of an opening.
 
 Whether you are a band or recording engineer, you need physical space to be productive.  As an alternative to clinical recording studios and noisy rehearsal spaces, we have a studio space that is split among 4 bands. Our belief is that the essence of recording is to document live music as it unfolds, so that these moments can then be shared with the world. The hardest challenge in playing music in a city is eliminating distractions, which is why simplicity is our guiding principle.  A quiet space, a few versatile microphones, and a great sounding room is all that is needed. A studio should be functional, simple, and most importantly, fun. (somewhere in between a roller coaster ride and chucky e. cheese's is about right.) For more info or to schedule a showing please email us at soapboxchicago@gmail.com.
@@ -44,25 +44,24 @@ Great option for bands that would like an affordable place to rehearse + the opt
 - Sennheiser 421 (2)
 - Electrovoice RE-27 (2)
 
- 
-
 #### Instruments & Amps
 
 - Premier Genista 100% Birch kit (10" tom, 14" tom, 14" snare, 22" kick)
 - Zildjian Cymbals, DW Pedal
 - Emperor 2x12 Cabinet
-- Tweed 1x15 Custom Pine Guitar Cabinet
+- Custom Tweed 1x15 Pine Guitar Cabinet
 - Fender Bass Amp
 - Marshall Guitar Amp
 - Yamaha 250 watt PA with 10 channel mixer (pair)
 
 #### Software
+
 - Harrison Mixbus
 
 ####  Hardware & Monitoring
 
 - Seventh Circle Preamps
-- Apogee / Tango / Echo
+- Tango / Echo
 - Mac OS X
 - B&W DM303
 - Auratone 5Cs
