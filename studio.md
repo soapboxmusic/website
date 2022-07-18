@@ -6,9 +6,9 @@ redirect_from:
 ---
 
 
-![](assets/images/no-vacancy-300.jpg)
+![](assets/images/vacancy-300.jpg)
 
-#### No Vancancy -- 4/4 membership slots filled.
+#### Vacancy -- 1 membership slot open.
 We keep this page updated with any openings, or you can email us at soapboxchicago@gmail.com, [sign up for our email newsletter](https://mailchi.mp/767a7c6ab28c/soapbox-newsletter), or [follow us on Facebook](http://www.facebook.com/soapboxchicago) to be notified of an opening. We often post openings on [chicago.craigslist.org](http://chicago.craigslist.org), too.
 
 Whether you are a band or recording engineer, you need physical space to be productive.  As an alternative to clinical recording studios and noisy rehearsal spaces, we have a studio space that is split among 4 bands. Our belief is that the essence of recording is to document live music as it unfolds, so that these moments can then be shared with the world. The hardest challenge in playing music in a city is eliminating distractions, which is why simplicity is our guiding principle.  A quiet space, a few versatile microphones, and a great sounding room is all that is needed. A studio should be functional, simple, and most importantly, fun. (somewhere in between a roller coaster ride and chucky e. cheese's is about right.) For more info or to schedule a showing please email us at soapboxchicago@gmail.com.
@@ -62,6 +62,8 @@ Great option for bands that would like an affordable place to rehearse + the opt
 
 - Seventh Circle Preamps
 - Tango / Echo
+- Overstayer FET compressor
+- Serpent Audio VCA compressor
 - Mac OS X
 - B&W DM303
 - Auratone 5Cs
