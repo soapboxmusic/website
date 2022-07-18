@@ -6,7 +6,7 @@ redirect_from:
 ---
 
 
-![](assets/images/vacancy-300.jpg)
+![](assets/images/open-vacancy-300.jpg)
 
 #### Vacancy -- 1 membership slot open.
 We keep this page updated with any openings, or you can email us at soapboxchicago@gmail.com, [sign up for our email newsletter](https://mailchi.mp/767a7c6ab28c/soapbox-newsletter), or [follow us on Facebook](http://www.facebook.com/soapboxchicago) to be notified of an opening. We often post openings on [chicago.craigslist.org](http://chicago.craigslist.org), too.
